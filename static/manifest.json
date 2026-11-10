@@ -1,0 +1,16 @@
+{
+  "name": "ضبط صدا",
+  "short_name": "ضبط",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ff3b30",
+  "description": "اپلیکیشن ساده ضبط صدا",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/709/709682.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
