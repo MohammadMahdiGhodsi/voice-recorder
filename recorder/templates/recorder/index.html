@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ضبط صدا</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<header>
+    <h1>ضبط صدا</h1>
+</header>
+
+<main>
+    <div class="record-area">
+        <button id="recordBtn" class="record-btn" aria-label="ضبط صدا">
+            <span class="mic-icon">🎤</span>
+        </button>
+        <div id="waveform" class="waveform"></div>
+        <p id="status" class="status">برای ضبط، دکمه رو بزن</p>
+    </div>
+
+    <section class="sounds-section">
+        <h2>صداها</h2>
+        <ul id="soundList" class="sound-list"></ul>
+        <p id="emptyMsg" class="empty-msg">هنوز صدایی ضبط نکردی</p>
+    </section>
+</main>
+
+<script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
